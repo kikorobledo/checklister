@@ -11,6 +11,8 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    @livewireStyles
+
     <style>
         img {
             max-width: 100%;
@@ -114,7 +116,7 @@
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/@coreui/coreui@3.4.0/dist/js/coreui.min.js"></script>
 
-
+@livewireScripts
 
 @yield('scripts')
 

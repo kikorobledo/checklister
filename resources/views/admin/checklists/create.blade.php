@@ -45,7 +45,7 @@
 
                                             <label for="name">{{ __('Name') }}</label>
 
-                                            <input type="text" id="name" name="name" placeholder="{{ __('Checklist name') }}" class="form-control">
+                                            <input type="text" id="name" name="name" value="{{ old('name') }}" class="form-control">
 
                                         </div>
 
